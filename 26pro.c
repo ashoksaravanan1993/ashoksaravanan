@@ -4,7 +4,7 @@ int main()
 {
 int i,j;
 clrscr();
-scanf("%d %d",&m,&n);
+scanf("%d %d",&i,&j);
 if(i==1||j==1)
 return 1;
 if(i<0&&j<0)
