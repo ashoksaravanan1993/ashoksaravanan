@@ -2,14 +2,14 @@
 #include<conio.h>
 int main()
 {
-int m,n;
+int i,j;
 clrscr();
 scanf("%d %d",&m,&n);
-if(m==1||n==1)
+if(i==1||j==1)
 return 1;
-if(m<0&&n<0)
+if(i<0&&j<0)
 return 0;
-printf("%d %d",m,n);
+printf("%d %d",i,j);
 getch();
 return 0;
 }
